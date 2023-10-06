@@ -1,0 +1,54 @@
+.hello{
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    animation-name: move;
+    transition: all 5s;
+    
+}
+.hello{
+    width: 200px;
+    height: 100px;
+    background-color: black;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 4s;
+}
+@keyframes move{
+    0%{
+        transform: translate(300px);
+        background-color: blueviolet;
+    }
+    25%{
+        background-color: yellowgreen;
+    }
+    50%{
+        background-color: goldenrod;
+    }
+    80%{
+        background-color: cornflowerblue;
+    }
+    100%{
+        background-color: crimson;
+    }
+}
+.bye:hover{
+    width: 400px;
+    height: 300px;
+    background-color: rgb(187, 24, 136);
+    animation-name: move;
+}
+.bye{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(145, 23, 23);
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 4s;
+}
+.animation{
+    transition: 6s;
+    transform: translate(100px);
+}
